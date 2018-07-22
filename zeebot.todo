@@ -1,0 +1,45 @@
+ZeeBot:
+    Main Functions:
+      ☐ Autorole and give bot role when joins new server
+      ☐ Hardcode welcome/leave messages
+      ☐ Allow user to set welcome/leave messages
+      ☐ >leaderboard = level experience
+      ☐ Economy(?)
+      ☐ IFFT webhook?
+      ☐ Give correct usage when user enters command wrongly
+      ☐ Create requirements.txt (what needed to pip install)
+      ✔ Status game presence @done (18-07-16 19:22)
+      ✔ >invite = gives bot link to join server @done (18-07-16 19:22)
+      ✔ Find gifs @done (18-07-06 00:03)
+
+    Music:
+      ☐ List to view songs in queue
+      ☐ If no queue after song end, say "No songs in queue, Leaving channel in 5 secs" and delete message in 5 seconds
+      ☐ hyperlink "Playing: {song}"
+      ☐ Embed everything
+      ✔ Volume control @done (18-07-21 10:20)
+      ✔ When finish current song, bot.say(Now playing: [next song in queue]) @done (18-07-21 10:20)
+      ✔ "Skip : {song}" @done (18-07-21 10:20)
+      ✔ Line 136 "Playing : song(undefined)" @done (18-07-21 10:20)
+      ✔ blacken the song title @done (18-07-14 11:58)
+      ✔ Searches music by keyword instead of URLs @done (18-07-14 11:58)
+      ✔ Add music duration at the end of title @done (18-07-11 21:05)
+      ✔ Enqueue list @done (18-07-06 00:02)
+      ✔ Playing now: TITLE @done (18-07-06 00:02)
+      ✔ Queued : TITLE @done (18-07-06 00:02)
+
+    Fun:
+      ☐ Count down timer?
+      ☐ 
+
+
+    Bugs / Need fixing:
+      ☐ Does Level up go to other channels
+      ☐ Fix userinfo and serverinfo embeds to make nicer
+      ☐ Userid, @user, kicked by @user, reasons
+      ☐ Create JSON log fils
+      ☐ Add user level to userinfo
+      ☐ split json files to make it neater
+      ☐ Red embeds = warning, Green = ...
+      ✔ Game presence not working @done (18-07-16 19:23)
+      ✔ Delete after-prune messages after a 3 second delay @done (18-06-24 10:32)
