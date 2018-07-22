@@ -28,10 +28,6 @@ status = [">help | " + str(len(bot.servers)) + " servers", "Owner: Zandrex"]
 
 description = "ZeeBot - Discord bot by Zandrex"
 
-#Directory of zeebot for import os(lvl)
-# os.chdir(r'C:\Users\18054040\Desktop\ZeeBot')
-os.chdir(r'C:\Users\user\Desktop\ZeeBot')
-
 extensions = [
 "helplist", 
 "management", 
