@@ -94,7 +94,7 @@ class Management:
 	    embed = discord.Embed(
 	        color = discord.Colour.orange()
 	    )
-	    embed.add_field(name="ZeeBot has been online for ", value=(timedelta_str(datetime.datetime.now() - start_time)), inline=True)
+	    embed.add_field(name="ZeeBot has been online for ", value=self.timedelta_str(datetime.datetime.now() - start_time), inline=True)
 	    await self.client.say(embed=embed)
 
 	########### Invite ###########
