@@ -48,7 +48,11 @@ async def on_ready():
     print("Running on servers: ")
     print("----------------------------------------------------------")
     # print(len(bot.servers))
-    [(lambda s: print(" - %s (%s)" % (s.name, s.id)))(s) for s in bot.servers] #Prints list of server name, server id
+    #[(lambda s: print(" - %s (%s)" % (s.name, s.id)))(s) for s in bot.servers] #Prints list of server name, server id
+    sCounter = 1
+    for s in bot.servers:
+        [(lambda s: print(sCounter, "- %s (%s)" % (s.name, s.id)))(s)]
+        sCounter += 1
     print("----------------------------------------------------------")
     await bot.change_presence(game=discord.Game(name=">help | " + str(len(bot.servers)) + " servers"))  
 
